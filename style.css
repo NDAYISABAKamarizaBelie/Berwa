@@ -1,0 +1,120 @@
+*{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	box-shadow: 0px 10px 10px 0px;
+	color:green;
+	border:solid 3px darkgreen;
+}
+.nav_bar{
+	width: 80%;
+	height: 60px;
+	background: darkgreen;
+	box-shadow: 0px 10px 10px 0px;
+	margin-left: 10%;
+	margin-top: -10px;
+	
+
+}
+.nav_bar > ul{
+	display: flex;
+}
+.nav_bar > ul >li{
+	list-style: none;
+	margin-left: 9%;
+	margin-top: 15px;
+}
+.nav_bar > ul > li > a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	
+}
+.nav_bar > ul >li:hover > .sub_menu{
+	display: block;
+	position: absolute;
+}
+.sub_menu{
+	display: none;
+}
+.sub_menu > ul>li{
+	list-style: none;
+	background-color:darkgreen;
+	padding: 10px;
+	width: 90%;
+	margin-left: -72%;
+	text-align: center;
+
+}
+.sub_menu >ul>li>a{
+	text-decoration: none;
+	color: white;
+}
+
+.content{
+	width: 100%;
+	height: 550px;
+	color: black;
+
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+  background: darkgreen;
+	color: black;
+}
+.logo{
+	font-size: 18px;
+	height: 10px;
+	margin-left: 5%;
+}
+.content table{
+	padding-top: 10px;
+}
+select{
+	width: 100%;
+	height: 30px;
+	border-radius: 10px;
+}
+input[type="text"]{
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+
+}
+input[type="email"]{
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+
+}
+input[type="password"]{
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+
+}
+input[type="number"]{
+	width: 100%;
+	height: 25px;
+	border-radius: 10px;
+}
+input[type="date"]{
+	width: 100%;
+	height: 20px;
+	border-radius: 10px;
+}
+input[type="submit"]{
+	width: 65%;
+	height: 30px;
+	border-radius: 5px;
+	margin-left: 100%;
+	margin-top: 5px;
+}
+.footer h4{
+	text-align: center;
+	color: white;
+}
